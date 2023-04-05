@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "title": "Movie 1",
+    "description": "This is the first movie.",
+    "match_score": "0.54"
+  },
+  {
+    "id": "2",
+    "title": "Movie 2",
+    "description": "This is the second movie.",
+    "match_score": "0.37"
+  },
+  {
+    "id": 1680683491,
+    "title": "movie_title",
+    "description": "movie_description",
+    "match_score": 6.466
+  },
+  {
+    "id": 1680683504,
+    "title": "movie_title",
+    "description": "movie_description",
+    "match_score": 6.466
+  }
+]
