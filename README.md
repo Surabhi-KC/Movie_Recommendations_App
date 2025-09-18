@@ -105,7 +105,7 @@ This project demonstrates how to build and deploy a hybrid cloud application usi
 - Anywhere means 0.0.0.0/0
 6. Review your settings and click **Launch instance**.
 7. Wait until the instance state shows **Running**.
-8. Using Secure Copy Protocol(SCP), copy the files from the repo into the EC2 instance
+8. Using Secure Copy Protocol(SCP), copy the files from the repo (except .md, .py and .txt files) into the EC2 instance
   ``` bash
   scp -i "/path/to/your-key.pem" -r ./project-folder ubuntu@<EC2-Public-IP>:/home/ubuntu/
   ```
@@ -115,7 +115,7 @@ Use the `.pem` file to SSH into the instance:
 ```bash
 ssh -i "/path/to/your-key.pem" ubuntu@<your-ec2-public-dns>
 ```
-10. Install docker and docker-compose on the EC2 instance using the commands given in installCommands.txt
+10. Install docker and docker-compose on the EC2 instance using the commands given in **installCommands.txt**
 11. Exit the instance (using exit command) and reconnect using the ssh command.
 12. Go to the project directory and build the app's docker image, using the commands given:
 ```bash
